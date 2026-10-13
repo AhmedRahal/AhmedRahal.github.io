@@ -743,6 +743,17 @@ html.js [data-reveal].is-visible {
     justify-content: center;
   }
 }
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+}
 
 @media (max-width: 640px) {
   .container {
