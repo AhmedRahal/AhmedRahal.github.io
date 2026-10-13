@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Developer Portfolio — [YOUR NAME]</title>
+<meta name="description" content="Portfolio of [YOUR NAME] — a developer building apps, backends and games.">
+<meta name="theme-color" content="#F6F7FB">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01"/><path d="M6 18h.01"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+  <symbol id="i-gamepad" viewBox="0 0 24 24"><path d="M6 11h4"/><path d="M8 9v4"/><path d="M15 12h.01"/><path d="M18 10h.01"/><path d="M17.32 5H6.68a4 4 0 0 0-3.98 3.59C2.6 9.42 2 14.46 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.41-1.41A2 2 0 0 1 9.83 16h4.34a2 2 0 0 1 1.42.59L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.54-.6-6.58-.7-7.26A4 4 0 0 0 17.32 5Z"/></symbol>
+  <symbol id="i-package" viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a2 2 0 0 1-2.06 0L2 7"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">AR</span>
+      <span class="brand-name">Ahmed Rayen Rahal</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+      <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu"></use></svg>
+      <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"></use></svg>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a class="nav-cta" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero container" id="top">
+    <div class="hero-copy">
+      <span class="pill">
+        <svg class="icon" aria-hidden="true"><use href="#i-sparkles"></use></svg>
+        Learning to build apps and games
+      </span>
+
+      <h1>I build the logic that makes apps and games work.</h1>
+
+      <p class="lead">
+        Hi, I'm Ahmed Rayen Rahal. I'm just getting started, and I learn by building real
+        projects: apps, backends and games. Have a look at what I've made so far.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">
+          See my projects
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+        </a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="monogram" role="img" aria-label="Initials monogram">AR</div>
+    </div>
+  </section>
+
+  <section class="section container" id="projects">
+    <header class="section-head" data-reveal>
+      <span class="eyebrow">
+        <svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg>
+        Projects
+      </span>
+      <h2 class="section-title">Things I've built</h2>
+    </header>
+
+    <div class="card-grid">
+
+      <article class="card" data-reveal>
+        <span class="chip">
+          <svg class="icon" aria-hidden="true"><use href="#i-monitor"></use></svg>
+          Desktop app
+        </span>
+        <h3>Note App</h3>
+        <p>
+          A note-taking app for Windows built with Electron. Sign in, write and
+          organize notes, switch to dark mode, and keep everything in sync with the
+          cloud. An offline local-only mode is on the way.
+        </p>
+        <ul class="tags">
+          <li class="tag">Electron</li>
+          <li class="tag">JavaScript</li>
+          <li class="tag">SCSS</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-dark btn-sm" href="https://github.com/AhmedRahal/Nurov" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card" data-reveal>
+        <span class="chip">
+          <svg class="icon" aria-hidden="true"><use href="#i-server"></use></svg>
+          Backend · API
+        </span>
+        <h3>Note App API</h3>
+        <p>
+          The Flask REST API behind the Note App: accounts, notes storage and the sync
+          logic that handles conflicts and retries. It has no screen of its own, so the
+          code is the showcase.
+        </p>
+        <ul class="tags">
+          <li class="tag">Python</li>
+          <li class="tag">Flask</li>
+          <li class="tag">REST API</li>
+          <li class="tag">SQLite</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-dark btn-sm" href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+            View backend on GitHub
+          </a>
+        </div>
+      </article>
+      <article class="card" data-reveal>
+        <span class="chip">
+          <svg class="icon" aria-hidden="true"><use href="#i-globe"></use></svg>
+          Website
+        </span>
+        <h3>Hospital Website</h3>
+        <p>
+          A multi-page hospital website built with plain HTML and CSS as a training project.
+          It has pages for the home page, about, doctors, treatments, testimonials and contact.
+        </p>
+        <ul class="tags">
+          <li class="tag">HTML</li>
+          <li class="tag">CSS</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-dark btn-sm" href="https://github.com/AhmedRahal/micro" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+            View on GitHub
+          </a>
+          <a class="btn btn-primary btn-sm" href="https://ahmedrahal.github.io/micro/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-external"></use></svg>
+            Live demo
+          </a>
+        </div>
+      </article>
+
+      <article class="card card-open" data-reveal>
+        <span class="chip">
+          <svg class="icon" aria-hidden="true"><use href="#i-gamepad"></use></svg>
+          App or game · open slot
+        </span>
+        <h3>[Project name]</h3>
+        <p>
+          [One or two sentences on what it does and why you built it.] Apps and games
+          that cannot run in a browser link to GitHub only.
+        </p>
+        <ul class="tags">
+          <li class="tag">[Tech]</li>
+          <li class="tag">[Tech]</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-dark btn-sm" href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card card-open" data-reveal>
+        <span class="chip">
+          <svg class="icon" aria-hidden="true"><use href="#i-package"></use></svg>
+          Any project · open slot
+        </span>
+        <h3>[Project name]</h3>
+        <p>[One or two sentences on what it does and why you built it.]</p>
+        <ul class="tags">
+          <li class="tag">[Tech]</li>
+          <li class="tag">[Tech]</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-dark btn-sm" href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section container" id="skills">
+    <header class="section-head" data-reveal>
+      <span class="eyebrow">
+        <svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg>
+        Skills
+      </span>
+      <h2 class="section-title">What I work with</h2>
+    </header>
+
+    <div class="card-grid card-grid-skills">
+      <article class="skill-card" data-reveal>
+        <span class="skill-icon">
+          <svg class="icon" aria-hidden="true"><use href="#i-code"></use></svg>
+        </span>
+        <h3 class="skill-label">Languages</h3>
+        <p class="skill-items">Python · JavaScript · HTML · CSS / SCSS</p>
+      </article>
+
+      <article class="skill-card" data-reveal>
+        <span class="skill-icon">
+          <svg class="icon" aria-hidden="true"><use href="#i-server"></use></svg>
+        </span>
+        <h3 class="skill-label">Backend</h3>
+        <p class="skill-items">Flask · REST APIs · SQLite</p>
+      </article>
+
+      <article class="skill-card" data-reveal>
+        <span class="skill-icon">
+          <svg class="icon" aria-hidden="true"><use href="#i-monitor"></use></svg>
+        </span>
+        <h3 class="skill-label">Desktop apps</h3>
+        <p class="skill-items">Electron · PySide6 / Qt</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section container" id="about">
+    <div class="about">
+      <header class="section-head" data-reveal>
+        <span class="eyebrow">
+          <svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg>
+          About
+        </span>
+        <h2 class="section-title">My journey</h2>
+      </header>
+
+      <div class="about-body" data-reveal>
+        <p>
+          I'm at the start of my developer journey, and I learn best by building things
+          that actually work, then fixing what breaks.
+        </p>
+        <p>
+          I enjoy backend and logic work most, like APIs and sync, and I'm happy to
+          connect it to a clean interface once the core is solid.
+        </p>
+        <p class="note">
+          [ADD: when you started, what you're learning now, and what you're looking for next]
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="contact">
+    <div class="contact-panel" data-reveal>
+      <div class="contact-copy">
+        <h2>Let's work together.</h2>
+        <p>Open to developer roles, freelance work and collaborations.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-light" href="https://github.com/AhmedRahal" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+          GitHub
+        </a>
+        <a class="btn btn-outline-light" href="mailto:ahmedrahal.dev@gmail.com">
+          <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+          ahmedrahal.dev@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer container">
+  <p>© <span data-year>2025</span> Ahmed Rayen Rahal. All rights reserved.</p>
+  <p class="footer-note">Built with HTML, CSS &amp; JavaScript</p>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">
+  <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"></use></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
